@@ -56,6 +56,10 @@ public class Vertex<Type>{
 		previous = other;
 	}
 	
+	public Vertex<Type> getPrevious() {
+		return this.previous;
+	}
+	
 	public void setInDegree(int degree) {
 		this.inDegree = inDegree + degree;
 	}
